@@ -16,3 +16,19 @@ Example:
   Because nums[0] + nums[1] = 2 + 7 = 9,
   return [0, 1].
 '''
+
+#########################################################################################################################################
+'''
+num1bits
+Write a function that takes an unsigned integer and returns the number of 1 bits it has.
+'''
+import numpy as np
+def num1bits(num):
+    b_num=bin(num)[2:]
+    lst = [int(i) for i in str(b_num)]
+    lst=np.array(lst)
+    count=0
+    for i in range(len(lst)):
+        if lst[i]==1:
+            count=count+1
+    return count
