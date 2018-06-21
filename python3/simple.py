@@ -21,6 +21,7 @@
 num1bits
 Write a function that takes an unsigned integer and returns the number of 1 bits it has.
 '''
+#This is my first attempt on this problem. Optimization needed
 import numpy as np
 def num1bits(num):
     b_num=bin(num)[2:]
