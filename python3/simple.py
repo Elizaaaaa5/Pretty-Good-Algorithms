@@ -1,7 +1,6 @@
-Link to the solution contributor page 
-https://stackoverflow.com/questions/50743582/two-sum-python-solution
-
-problem definition:
+# Link to the solution contributor page 
+# https://stackoverflow.com/questions/50743582/two-sum-python-solution
+#problem definition:
 '''
   Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -9,7 +8,7 @@ problem definition:
 '''
   
 
-Example:
+#Example:
 '''
   Given nums = [2, 7, 11, 15], target = 9,
 
